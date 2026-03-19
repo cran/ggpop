@@ -1,8 +1,8 @@
 Type: Package
 Package: ggpop
 Title: Icon-Based Population Charts and Plots for 'ggplot2'
-Version: 1.7.0
-Date: 2026-03-06
+Version: 1.7.1
+Date: 2026-03-18
 Authors@R: c(
     person(given = "Jorge A.",
              family = "Roa-Contreras",
@@ -29,8 +29,9 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.3.3
 Suggests: testthat (>= 3.0.0), knitr, rmarkdown, cowplot, ggforce,
-        gganimate, ggrepel, ggtext, scales, reactable, reactablefmtr
-Config/Needs/website: sf, geofacet, ggtext, quarto
+        gganimate, ggrepel, ggtext, scales, reactable
+Config/Needs/website: sf, geofacet, ggtext, quarto,
+        kcuilla/reactablefmtr
 Config/testthat/edition: 3
 Depends: R (>= 4.0.5)
 Imports: ggplot2, dplyr, ggimage, magick, rlang, tidyr, purrr,
@@ -40,7 +41,7 @@ ByteCompile: true
 BugReports: https://github.com/jurjoroa/ggpop/issues
 URL: https://jurjoroa.github.io/ggpop/
 NeedsCompilation: no
-Packaged: 2026-03-12 00:51:30 UTC; jorgeroa
+Packaged: 2026-03-19 00:31:07 UTC; jorgeroa
 Author: Jorge A. Roa-Contreras [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-3972-9793>),
   Ralitza Soultanova [aut] (ORCID:
@@ -51,4 +52,4 @@ Author: Jorge A. Roa-Contreras [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-8352-7080>)
 Maintainer: Jorge A. Roa-Contreras <jorgeroa@stanford.edu>
 Repository: CRAN
-Date/Publication: 2026-03-17 17:40:10 UTC
+Date/Publication: 2026-03-19 08:10:07 UTC
