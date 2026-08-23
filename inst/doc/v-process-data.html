@@ -359,10 +359,10 @@ string.</p>
 <span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a></span>
 <span id="cb1-13"><a href="#cb1-13" tabindex="-1"></a><span class="fu">head</span>(df_plot, <span class="dv">4</span>)</span>
 <span id="cb1-14"><a href="#cb1-14" tabindex="-1"></a><span class="co">#&gt;     type  n prop</span></span>
-<span id="cb1-15"><a href="#cb1-15" tabindex="-1"></a><span class="co">#&gt; 1   Male 45 0.45</span></span>
-<span id="cb1-16"><a href="#cb1-16" tabindex="-1"></a><span class="co">#&gt; 2   Male 45 0.45</span></span>
-<span id="cb1-17"><a href="#cb1-17" tabindex="-1"></a><span class="co">#&gt; 3 Female 55 0.55</span></span>
-<span id="cb1-18"><a href="#cb1-18" tabindex="-1"></a><span class="co">#&gt; 4 Female 55 0.55</span></span></code></pre></div>
+<span id="cb1-15"><a href="#cb1-15" tabindex="-1"></a><span class="co">#&gt; 1 Female 55 0.55</span></span>
+<span id="cb1-16"><a href="#cb1-16" tabindex="-1"></a><span class="co">#&gt; 2 Female 55 0.55</span></span>
+<span id="cb1-17"><a href="#cb1-17" tabindex="-1"></a><span class="co">#&gt; 3   Male 45 0.45</span></span>
+<span id="cb1-18"><a href="#cb1-18" tabindex="-1"></a><span class="co">#&gt; 4   Male 45 0.45</span></span></code></pre></div>
 <p>The result has one row per icon. The <code>type</code> column carries
 the original group label and is what you map to <code>color</code> and
 <code>icon</code> in <code>geom_pop()</code>.</p>
@@ -389,7 +389,7 @@ correct per group.</p>
 <span id="cb2-16"><a href="#cb2-16" tabindex="-1"></a><span class="co">#&gt;   group   type  n prop</span></span>
 <span id="cb2-17"><a href="#cb2-17" tabindex="-1"></a><span class="co">#&gt; 1 North Female 30  0.6</span></span>
 <span id="cb2-18"><a href="#cb2-18" tabindex="-1"></a><span class="co">#&gt; 2 North Female 30  0.6</span></span>
-<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a><span class="co">#&gt; 3 North Female 30  0.6</span></span>
+<span id="cb2-19"><a href="#cb2-19" tabindex="-1"></a><span class="co">#&gt; 3 North   Male 20  0.4</span></span>
 <span id="cb2-20"><a href="#cb2-20" tabindex="-1"></a><span class="co">#&gt; 4 North Female 30  0.6</span></span></code></pre></div>
 <p>The <code>group</code> column in the output contains the panel label
 — pass it to <code>facet_wrap(~group)</code> and
