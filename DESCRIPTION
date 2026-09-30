@@ -1,8 +1,8 @@
 Type: Package
 Package: ggpop
 Title: Icon-Based Population Charts and Plots for 'ggplot2'
-Version: 1.8.0
-Date: 2026-08-23
+Version: 1.9.0
+Date: 2026-09-29
 Authors@R: c(
     person(given = "Jorge A.",
              family = "Roa-Contreras",
@@ -42,7 +42,7 @@ ByteCompile: true
 BugReports: https://github.com/jurjoroa/ggpop/issues
 URL: https://jurjoroa.github.io/ggpop/
 NeedsCompilation: no
-Packaged: 2026-08-23 19:15:33 UTC; jorgeroa
+Packaged: 2026-09-29 20:50:56 UTC; jorgeroa
 Author: Jorge A. Roa-Contreras [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-3972-9793>),
   Ralitza Soultanova [aut] (ORCID:
@@ -53,4 +53,4 @@ Author: Jorge A. Roa-Contreras [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-8352-7080>)
 Maintainer: Jorge A. Roa-Contreras <jorgeroa@stanford.edu>
 Repository: CRAN
-Date/Publication: 2026-08-23 20:10:11 UTC
+Date/Publication: 2026-09-30 19:20:02 UTC
